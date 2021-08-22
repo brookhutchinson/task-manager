@@ -4,6 +4,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 
+// font awesome
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 // components
 import { AppComponent } from './app.component';
 
@@ -13,7 +16,9 @@ import { AppComponent } from './app.component';
     // angular modules
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    // font awesome
+    FontAwesomeModule
   ],
   // components
   declarations: [
