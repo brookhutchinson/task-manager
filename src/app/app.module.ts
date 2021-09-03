@@ -1,17 +1,17 @@
 // angular modules
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule } from '@app/app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 
 // feature modules
-import { HomeModule } from './home/home.module';
+import { HomeModule } from '@home/home.module';
 
 // font awesome
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 // components
-import { AppComponent } from './app.component';
+import { AppComponent } from '@app/app.component';
 
 @NgModule({
   imports: [
@@ -28,7 +28,6 @@ import { AppComponent } from './app.component';
     // components
     AppComponent
   ],
-  // bootstrap
   bootstrap: [ AppComponent ]
 })
 export class AppModule {}
