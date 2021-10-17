@@ -1,7 +1,7 @@
 // interrfaces
 import { Task } from './interfaces/task.interface';
 
-export const TASKS: Task[] = [
+export const MockTasks: Task[] = [
   {
     id: 1,
     text: 'Doctors Appointment',
