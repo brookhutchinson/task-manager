@@ -7,6 +7,7 @@ import { SharedModule } from '@shared/shared.module';
 
 // components
 import { HeaderComponent } from '@home/components/header/header.component';
+import { TasksComponent } from './components/tasks/tasks.component';
 
 @NgModule({
   imports: [
@@ -17,7 +18,8 @@ import { HeaderComponent } from '@home/components/header/header.component';
   ],
   declarations: [
     // components
-    HeaderComponent
+    HeaderComponent,
+    TasksComponent
   ],
   exports: [
     // angular modules
@@ -25,7 +27,8 @@ import { HeaderComponent } from '@home/components/header/header.component';
     // shared modules
     SharedModule,
     // components
-    HeaderComponent
+    HeaderComponent,
+    TasksComponent
   ]
 })
 export class HomeModule {}
