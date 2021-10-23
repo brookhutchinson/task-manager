@@ -7,6 +7,7 @@ import { SharedModule } from '@shared/shared.module';
 
 // components
 import { HeaderComponent } from '@home/components/header/header.component';
+import { TaskItemComponent } from './components/task-item/task-item.component';
 import { TasksComponent } from './components/tasks/tasks.component';
 
 @NgModule({
@@ -19,6 +20,7 @@ import { TasksComponent } from './components/tasks/tasks.component';
   declarations: [
     // components
     HeaderComponent,
+    TaskItemComponent,
     TasksComponent
   ],
   exports: [
