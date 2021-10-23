@@ -18,6 +18,4 @@ export class TasksComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
-
-
 }
