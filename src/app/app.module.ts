@@ -7,9 +7,6 @@ import { HttpClientModule } from '@angular/common/http';
 // feature modules
 import { HomeModule } from '@home/home.module';
 
-// font awesome
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-
 // components
 import { AppComponent } from '@app/app.component';
 
@@ -21,8 +18,6 @@ import { AppComponent } from '@app/app.component';
     HttpClientModule,
     // feature modules
     HomeModule,
-    // font awesome
-    FontAwesomeModule
   ],
   declarations: [
     // components
