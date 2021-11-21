@@ -2,6 +2,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+
+// components
 import { ButtonComponent } from '@shared/components/button/button.component';
 
 @NgModule({

@@ -20,5 +20,5 @@ export class TaskItemComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit() {}
 }
