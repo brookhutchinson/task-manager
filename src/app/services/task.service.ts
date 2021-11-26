@@ -13,11 +13,11 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class TaskService {
-  private url: string = 'http://localhost:5000/tasks';
+  private getTasksUrl: string = 'http://localhost:5000/tasks';
 
   constructor(private http: HttpClient) {}
 
   getTasks(): Observable<Task[]> {
-    return this.http.get<Task[]>(this.url);
+    return this.http.get<Task[]>(this.getTasksUrl);
   }
 }
