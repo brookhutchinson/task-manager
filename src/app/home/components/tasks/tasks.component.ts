@@ -1,8 +1,7 @@
 // angular
 import { Component, OnInit } from '@angular/core';
 
-// services
-import { TaskService } from './../../../services/task.service';
+
 
 // interfaces
 import { Task } from './../../../interfaces/task.interface';
@@ -15,13 +14,9 @@ import { Task } from './../../../interfaces/task.interface';
 export class TasksComponent implements OnInit {
   tasks: Task[] = [];
 
-  constructor(private taskService: TaskService) {}
+  constructor() {}
 
   ngOnInit() {
-    this.taskService.getTasks().subscribe(
-      (tasks) => {
-        this.tasks = tasks;
-      }
-    );
+
   }
 }
